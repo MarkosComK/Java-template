@@ -12,6 +12,9 @@ sed -i '' "s/hello-world/$PROJECT_NAME/g" pom.xml
 # Initialize new git repository
 git init
 
+#And dont forget to 
+#git remote add origin git@github:username/repository.git
+
 echo "✅ Project setup complete!"
 echo "📁 Project name: $PROJECT_NAME"
 echo "🚀 Ready to code! You can now:"
